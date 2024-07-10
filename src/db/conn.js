@@ -7,7 +7,7 @@ const conn = mysql.createConnection({
   // database: "tuorr_1",
   host: "srv982.hstgr.io",
   user: "u479282372_tourr",
-  password: "Tuorr123",
+  password: "Tourr123",
   database: "u479282372_tourr",
 });
 
