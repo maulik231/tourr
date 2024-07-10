@@ -3,11 +3,11 @@ const cors = require("cors");
 const router = require("./routes");
 require('dotenv').config();
 const corsOptions = {
-  'Access-Control-Allow-Origin': "*",
-  origin: "*", // Allow requests from this origin
+  // 'Access-Control-Allow-Origin': "*",
+  origin: ['https://dev-tourr.netlify.app', '*'], // Allow requests from this origin
   methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
   credentials: true, // Allow cookies to be sent with requests
-  optionsSuccessStatus: 204, // Some legacy browsers (IE11, various SmartTVs) choke on 204
+  optionsSuccessStatus: 200, // Some legacy browsers (IE11, various SmartTVs) choke on 204
 };
 
 const app = express();
