@@ -5,10 +5,10 @@ const conn = mysql.createConnection({
   // user: "root",
   // password: "",
   // database: "tuorr_1",
-  host: "sql12.freemysqlhosting.net",
-  user: "sql12717403",
-  password: "12Q9DkJSWM",
-  database: "sql12717403",
+  host: "srv982.hstgr.io",
+  user: "u479282372_tourr",
+  password: "Tuorr123",
+  database: "u479282372_tourr",
 });
 
 // Connect to the databasesd
